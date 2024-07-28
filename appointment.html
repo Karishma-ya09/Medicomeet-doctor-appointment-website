@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment - MediCoMeet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="doctors.html">Doctors</a></li>
+      <li><a href="appointment.html">Appointment</a></li>
+      <li><a href="manage_appointment.html">Manage Appointments</a></li>
+    </ul>
+  </nav>
+
+  <div id="appointment">
+    <h2>Book an Appointment</h2>
+    <form id="appointment-form">
+      <input type="text" id="patient-id" placeholder="Patient ID" required>
+      <input type="text" id="doctor-id" placeholder="Doctor ID" required>
+      <input type="datetime-local" id="appointment-date" required>
+      <button type="submit">Book Appointment</button>
+    </form>
+  </div>
+
+  <script src="appointment.js"></script>
+
+</body>
+</html>
